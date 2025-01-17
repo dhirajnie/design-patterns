@@ -62,9 +62,9 @@ class VehicleFinderService{
 class VehicleBookingService{
     protected Map<User,Vehicle> currentBookings;
     protected VehicleFinderService vehicleFinderService;
-    Vehicle bookVehichle(Location curLocation,User user, Vehicle requestedVehicle){
-      Vehicle vehicle=  vehicleFinderService.getVehicle(curLocation,user,requestedVehicle);
-    }
+//    Vehicle bookVehichle(Location curLocation,User user, Vehicle requestedVehicle){
+//      Vehicle vehicle=  vehicleFinderService.getVehicle(curLocation,user,requestedVehicle);
+//    }
 }
 class User{
     String id;
